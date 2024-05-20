@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(46, 46, 46);
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .card{
+    max-width: 450px;
+    min-width: 350px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    border-radius: 20px;
+    padding: 40px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .card .search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.main .card .search input{
+    border: 0;
+    outline: 0;
+    min-height: 38px;
+    border-radius: 30px;
+    background-color: rgb(208, 209, 210);
+    padding: 10px 25px;
+    color: black;
+    flex: 1;
+}
+.main .card .search button{
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .card .search button img{
+    width: 30px;
+}
+.card .weather{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    gap: .5rem;
+}
+.card .weather .weather_icon{
+    width: 170px;
+}
+.card .weather h1{
+    font-size: 4.2rem;
+    font-weight: 500;
+}
+.card .weather h2{
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+.card .weather .details{
+    margin-top: 2.5rem;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card .weather .details .col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 10px;
+}
+.card .weather .details .col img{
+    width: 40px;
+}
+.card .weather .details .col .humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
