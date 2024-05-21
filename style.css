@@ -93,3 +93,27 @@ body{
     font-size: 28px;
     margin-top: -6px;
 }
+@media  screen and (max-width: 400px) {
+    .main .card{
+        max-width: 100%;
+        min-width: 100%;
+        padding: 18px 8px;
+        height: 100vh;
+    }
+    .main .card .search{
+        width: 70%;
+        gap: 8px;
+        margin-top: 50px;
+    }
+    .main .card .search input{
+        min-height: 30px;
+        padding: 10px 18px;
+    }
+    .main .card .search button{
+        width: 50px;
+        height: 50px;
+    }
+    .main .card .search button img{
+        width: 15px;
+    } 
+}
